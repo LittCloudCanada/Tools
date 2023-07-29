@@ -8,7 +8,7 @@ Install node.js > linux command > sudo apt install Node.js  or call it with Curl
             curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
             sudo apt-get install -y nodejs
             https://github.com/nodesource/distributions
-How to ignore files to be submmited to github> used Git by creating a .gitignore files
+How to ignore files to be submmited to github> used Git by creating a .gitignore files. Add the file exclusions.
 How to protect the passwords and API keys in the code> do not use them in the main code by reference them to the .env file  with the dotenv js library
 npm install --save dotenv > library to use the .env file so you can protect the passwords/API keys.
 nmp install --save ethers or  npm install ethers> a Java script library for web3, eteherume, Dapps.
