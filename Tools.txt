@@ -1,0 +1,47 @@
+Install VS code and a few entensions and packages
+If using UBUNTU OS always use the sudo apt update and upgrade commmands at the start.
+Install the package manager for java Script > linux command npm install latest-version https://www.npmjs.com/
+            npm is the default package manager for the JavaScript runtime environment Node.js
+instal curl > sudo apt install curl > transfer data over a URL under different protocols using the CLI
+Install node.js > linux command > sudo apt install Node.js  or call it with Curl commmands
+            Node.jsross-platform runtime environment for executing JavaScript code.
+            curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
+            sudo apt-get install -y nodejs
+            https://github.com/nodesource/distributions
+How to ignore files to be submmited to github> used Git by creating a .gitignore files
+How to protect the passwords and API keys in the code> do not use them in the main code by reference them to the .env file  with the dotenv js library
+npm install --save dotenv > library to use the .env file so you can protect the passwords/API keys.
+nmp install --save ethers or  npm install ethers> a Java script library for web3, eteherume, Dapps.
+use a .gitignore file( in the same folder that you are working on) to exclude what you dont want to be uploaded to the repository.
+Install Truffle with the VS CODE EXTENSION > https://trufflesuite.com/blog/build-on-web3-with-truffle-vs-code-extension/
+Install remix IDE extension in VS code.  https://remix-ide.readthedocs.io/en/latest/remixd.html#update-to-the-latest-remixd 
+Intall the Pterrier fortmattert for VS code > https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode Make it default in VS code.
+install Solidity  compiler( VS code extension) by Juan Blanco if you dont use remix IDE > https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity
+
+
+Check the version for NMP and NODE.js
+   node -v
+   npm -v
+
+Learn hardhat > Hardhat is an Ethereum development environment > https://hardhat.org/ 
+create a new folder
+npm init command in the terminal and assing a name
+npm install --save-dev hardhat
+npx hardhat
+
+
+How to import Ethers and DOTENV libraries in your code.
+            import { ethers } from "ethers";
+            import dotenv from "dotenv";
+            dotenv.config(); > which is a .env file in the same folder that you are working on.
+
+When working in a new folder always use the nmp init and the git init commmands
+
+Basic Githubs commands when subbmiting to githuib from the CLIfor GitHub commands from terminal ujsing VS code samples and main commands:
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LittCloudCanada/PushingfromVSCODE.git
+git push -u origin main
+git config --list
